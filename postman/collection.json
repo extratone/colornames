@@ -100,7 +100,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://colornames.org/search/json/?hex={{hex}}",
+					"raw": "https://colornames.org/search/json/?hex=00006b",
 					"protocol": "https",
 					"host": [
 						"colornames",
@@ -114,7 +114,7 @@
 					"query": [
 						{
 							"key": "hex",
-							"value": "{{hex}}"
+							"value": "00006b"
 						}
 					]
 				},
@@ -198,6 +198,93 @@
 						{
 							"key": "Server",
 							"value": "cloudflare"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"hexCode\": \"00006b\",\n    \"name\": \"David Blue\"\n}"
+				},
+				{
+					"id": "b4afa66c-166c-4d7b-b160-215201f1778a",
+					"name": "DavidBlue",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://colornames.org/search/json/?hex=00006b",
+							"protocol": "https",
+							"host": [
+								"colornames",
+								"org"
+							],
+							"path": [
+								"search",
+								"json",
+								""
+							],
+							"query": [
+								{
+									"key": "hex",
+									"value": "00006b"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 12 May 2025 03:20:42 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=10"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+						},
+						{
+							"key": "Cf-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ij1fZnVAnK1GXGG%2FSX3teEY%2BkY%2Fj7nx%2B0GIuYB4ZnwazHAESYu26wvjU8j6AQF966bzKsWmGHp3M0rLGPNwHE4ji1d%2FCgNpzKA3HtKT%2B3LNcVZqOI9wYcu%2F46nTtRTtuNw%3D%3D\"}]}"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "93e6c81df83d0598-IAD"
 						},
 						{
 							"key": "alt-svc",
